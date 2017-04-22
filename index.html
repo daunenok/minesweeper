@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minesweeper</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="cerulean.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="custom.js"></script>
+</head>
+<body>
+
+<h1>Minesweeper</h1>
+<h4>Timer <span id="timer">00:00</span></h4>
+
+<div class="field"></div>
+<div class="new-game">
+	<button class="btn btn-primary">New Game</button>
+</div>
+
+<div class="alert alert-dismissible alert-danger">
+  <button class="close">
+  	&times;
+  </button>
+  <strong>Explosion!</strong> You lose...
+</div>
+<div class="alert alert-dismissible alert-success">
+  <button class="close">&times;</button>
+  <strong>You won!</strong>&nbsp;&nbsp;&nbsp;
+  Time <span id="endTimer"></span>
+</div>
+
+</body>
+</html>
